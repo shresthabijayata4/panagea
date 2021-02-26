@@ -1,0 +1,55 @@
+// @import '../utilities/color';
+
+.hero-section{
+    background-image: url(../images/cover/coverphoto.jpg);
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .hero-section__background{
+    background-color: rgba(12, 9, 9, 0.5);
+    height: 100vh;
+  
+    .hero-section__conatiner{
+         margin: 0;
+            position: absolute;
+            top: 25%;
+            
+           
+            transform: translatex(10%);
+        .hero-section__row{
+            .hero-section__col{
+               
+               
+                
+                // height: 370px;
+                text-align: left;
+                
+                background-color: #fff;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                border-radius: 5px;
+                width: 460px !important;
+                text-align: left;
+                padding: 30px 30px 30px 30px;
+                .btn-danger{
+                    float: right;
+                    background-color: $themecolor;
+                    font-weight: 500;
+                    margin: 10px 0 0 0;
+                    border: 0px;
+                    padding: 10px 20px;
+                }
+                .btn-danger:hover{
+                    background-color: yellow;
+                    color: black;
+                }
+                
+            }
+        }
+    }
+}
+   
+}

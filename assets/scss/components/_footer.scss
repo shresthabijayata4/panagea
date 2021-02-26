@@ -1,0 +1,106 @@
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    // display: inline;
+}
+
+
+.footer__wrapper{
+background-color: #121921;
+padding-top: 40px;
+
+.wrapper__container{
+    .wrapper__upper-footer{
+        .upper-footer__firstcol{
+
+            color: white;
+            .firstcol__logo{
+                
+            }
+            .firstcol__content{
+                    
+            }
+            .firstcol__followus{
+
+            }
+        }
+        .upper-footer__secondcol{
+            h4{
+                color: white;
+            }
+            ul{
+                padding-top: 10px;
+                li{
+                    padding-top: 5px;
+                    a{
+                        color:    rgba(255,255,255,0.7);
+                        text-decoration: none;
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                }
+               
+            }
+       
+        }
+        .upper-footer__thirdcol{
+            .thirdcol__title{
+                color: rgba(255,255,255,0.7);
+            }
+            .thirdcol__contact{
+               
+            }
+            .thirdcol__Newsletter{
+                color: rgba(255,255,255,0.7);
+                .Newsletter__title{
+                    h4{
+                       color: white  !important;
+                    }
+                }
+                .Newsletter__contact{
+
+                }
+                .Newsletter__form{
+                    .form__title{
+                        color: white  !important;
+                        padding-top: 10px;
+                        h4{
+                            font-size: 15px;
+                            font-weight: bold ;
+                        }
+                       
+                    }
+                    .form__input{
+                        display: flex;
+
+                    }
+                }
+            }
+
+        }
+    }
+    .wrapper__lower-footer{
+        padding-top: 30px ;
+        .lower-footer__line{
+
+        }
+        .lowerfooter__leftcol{
+            .leftcol__button{
+                
+                li{
+                    button{
+                        background-color: #212529;
+                    }
+                }
+            }
+        }
+        .lowerfooter__rightcol{
+
+        }
+    }
+}
+
+}

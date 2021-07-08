@@ -1,5 +1,21 @@
+.text-center {
+  text-align: center;
+}
+
+.p50 {
+  padding: 50px;
+}
+
+.p30 {
+  padding: 30px;
+}
+
 * a {
   text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .card {
@@ -505,6 +521,29 @@ ul {
   background-color: rgba(12, 9, 9, 0.5);
   background-size: cover;
   position: absolute;
+}
+
+.experience-image .experience-image__row .experience-image__col .row {
+  justify-content: flex-end;
+}
+
+.experience-image .experience-image__row .experience-image__col .card {
+  background-color: #212529;
+  margin-top: 15%;
+  float: right;
+}
+
+.experience-image .experience-image__row .experience-image__col h2 {
+  color: #fff;
+  font-size: 1.75rem;
+  padding: 0px 35px;
+}
+
+.experience-image .experience-image__row .experience-image__col p {
+  color: #fff;
+  padding: 35px;
+  opacity: .8;
+  margin-bottom: 30px;
 }
 
 ul {

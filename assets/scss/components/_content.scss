@@ -3,6 +3,9 @@
         text-decoration: none;
     }
 }
+body{
+    overflow-x: hidden;
+}
 
 .card {
     border: 0px;
@@ -533,6 +536,25 @@ ul {
            
                 background-size: cover;
                 position: absolute;
+            }
+            .row{
+                justify-content: flex-end;
+            }
+            .card{
+                background-color: $sec-theme;
+                margin-top: 15%;
+                float: right;
+            }
+            h2{
+                color: #fff;
+                font-size: 1.75rem;
+                padding: 0px 35px;
+            }
+            p{
+                color: #fff;
+                padding: 35px;
+                opacity: .8;
+                margin-bottom: 30px;
             }
         }
     }
